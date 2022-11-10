@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace BattleLords.FightSystem
 { 
@@ -13,9 +14,14 @@ namespace BattleLords.FightSystem
         [SerializeField] private Slider EnemyHealth;
         [SerializeField] private Button AttackBtn;
         [SerializeField] private Button HealBtn;
-
+        [SerializeField] private Button StoreBtn;
 
         private bool IsPlayerTurn = true;
+
+        void Awake()
+        {
+            StoreBtn.interactable = false;
+        }
 
         private void Attack(GameObject target, float damageAmount)
         {
@@ -106,7 +112,13 @@ namespace BattleLords.FightSystem
             Camera.main.GetComponent<AudioSource>().Stop();
             AttackBtn.interactable = false;
             HealBtn.interactable = false;
+            StoreBtn.interactable = true;
 
+        }
+
+        public void GotoStore()
+        {
+            SceneManager.LoadScene("Store");
         }
 
     }
