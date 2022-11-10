@@ -1,0 +1,32 @@
+Images:
+
+Main Menu Background:
+Image by <a href="https://www.freepik.com/free-vector/gradient-warrior-background_27772531.htm#query=warrior%20manga%20castle%20silhouette&position=47&from_view=search&track=ais">Freepik</a>
+
+Level 01  
+
+Background:
+<a href="https://www.freepik.es/vector-gratis/entrada-cueva-montana-espacio-vacio_21427495.htm#query=nature%20fantasy&position=11&from_view=search&track=sph">Imagen de upklyak</a> en Freepik
+
+Store:
+
+Background:
+https://assetstore.unity.com/packages/2d/textures-materials/red-cliff-background-147959
+
+Characters:
+
+Aekaschics Librarium - Megapack III
+https://assetstore.unity.com/packages/2d/characters/aekashics-librarium-megapack-iii-130410
+
+Store:
+Fantasy Inventory Icons
+https://assetstore.unity.com/packages/2d/gui/icons/fantasy-inventory-icons-free-143805
+
+Iconos:
+Jelly Icons
+https://assetstore.unity.com/packages/2d/gui/icons/jelly-icons-99749
+
+Sounds:
+
+Action RPG Music Free:
+https://assetstore.unity.com/packages/audio/music/action-rpg-music-free-85434
