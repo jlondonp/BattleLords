@@ -10,8 +10,10 @@ namespace BattleLords.FightSystem
     {
         [SerializeField] private GameObject Player;
         [SerializeField] private GameObject Enemy;
+        
         [SerializeField] private Slider PlayerHealth;
         [SerializeField] private Slider EnemyHealth;
+
         [SerializeField] private Button AttackBtn;
         [SerializeField] private Button HealBtn;
         [SerializeField] private Button StoreBtn;
@@ -113,6 +115,8 @@ namespace BattleLords.FightSystem
             AttackBtn.interactable = false;
             HealBtn.interactable = false;
             StoreBtn.interactable = true;
+
+
 
         }
 
