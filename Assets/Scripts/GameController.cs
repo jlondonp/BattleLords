@@ -125,5 +125,9 @@ namespace BattleLords.FightSystem
             SceneManager.LoadScene("Store");
         }
 
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
     }
 }

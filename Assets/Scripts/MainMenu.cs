@@ -14,15 +14,7 @@ namespace BattleLords.Menu
 
         public void QuitGame()
         {
-            //TODO: save game data here.
-
-            if(Application.isEditor )
-            {
-                UnityEditor.EditorApplication.isPlaying = false;
-            } else { 
                 Application.Quit();
-            }
-
         }
     }
 }
